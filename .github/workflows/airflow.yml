@@ -16,7 +16,7 @@
 # under the License.
 #
 ---
-name: CI Build
+name: airflow
 on:  # yamllint disable-line rule:truthy
   schedule:
     - cron: '28 0 * * *'
